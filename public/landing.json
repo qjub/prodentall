@@ -1,0 +1,171 @@
+{
+  "landingEnabled": true,
+  "defaultTourSrc": "tours/demo/tour.json",
+  "mainSiteUrl": "https://google.com",
+  "brand": {
+    "name": "Ilumi Interior",
+    "logo": "ilumi_logo.png"
+  },
+  "background": {
+    "type": "color",
+    "color": "#000000",
+    "image": ""
+  },
+  "theme": {
+    "headerBg": "#000000",
+    "accent": "#ffffff",
+    "cardBg": "#000000",
+    "cardText": "#173a5e",
+    "textColor": "#1d2733"
+  },
+  "logoHeight": 120,
+  "font": "'Poppins', system-ui, sans-serif",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Prodentall",
+      "style": "heading",
+      "align": "center",
+      "color": "#ffffff"
+    },
+    {
+      "type": "carousel",
+      "slides": [
+        {
+          "image": "1.png",
+          "variants": [
+            {
+              "id": "sv-mrf8oo6a-21",
+              "label": "Variant 1",
+              "image": "1_m.png"
+            },
+            {
+              "id": "sv-mrf8oxja-22",
+              "label": "Variant 2",
+              "image": "1_b.png"
+            }
+          ]
+        },
+        {
+          "image": "2.png",
+          "variants": [
+            {
+              "id": "sv-mrf8qs7f-21",
+              "label": "Variant 1",
+              "image": "2_m.png"
+            },
+            {
+              "id": "sv-mrf8qwb1-22",
+              "label": "Variant 2",
+              "image": "2_b.png"
+            }
+          ]
+        },
+        {
+          "image": "3.png",
+          "variants": [
+            {
+              "id": "sv-mrf8r284-23",
+              "label": "Variant 1",
+              "image": "3_m.png"
+            },
+            {
+              "id": "sv-mrf8r6xi-24",
+              "label": "Variant 2",
+              "image": "3_m.png"
+            }
+          ]
+        },
+        {
+          "image": "4.png",
+          "variants": [
+            {
+              "id": "sv-mrf8rcpl-25",
+              "label": "Variant 1",
+              "image": "4_m.png"
+            },
+            {
+              "id": "sv-mrf8rldt-26",
+              "label": "Variant 2",
+              "image": "4_b.png"
+            }
+          ]
+        },
+        {
+          "image": "5.png",
+          "variants": [
+            {
+              "id": "sv-mrf8rqb4-27",
+              "label": "Variant 1",
+              "image": "5_m.png"
+            },
+            {
+              "id": "sv-mrf8ruo5-28",
+              "label": "Variant 2",
+              "image": "5_b.png"
+            }
+          ]
+        },
+        {
+          "image": "6.png",
+          "variants": [
+            {
+              "id": "sv-mrf8s0jq-29",
+              "label": "Variant 1",
+              "image": "6_m.png"
+            },
+            {
+              "id": "sv-mrf8s4hd-30",
+              "label": "Variant 2",
+              "image": "6_b.png"
+            }
+          ]
+        },
+        {
+          "image": "7.png",
+          "variants": [
+            {
+              "id": "sv-mrf8sbf1-31",
+              "label": "Variant 1",
+              "image": "7_m.png"
+            },
+            {
+              "id": "sv-mrf8shqg-32",
+              "label": "Variant 2",
+              "image": "7_b.png"
+            }
+          ]
+        },
+        {
+          "image": "8.png",
+          "variants": [
+            {
+              "id": "sv-mrf8srkq-33",
+              "label": "Variant 1",
+              "image": "8_m.png"
+            },
+            {
+              "id": "sv-mrf8sxgc-34",
+              "label": "Variant 2",
+              "image": "8_b.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "360° Prehliadka",
+      "titleColor": "#ffffff",
+      "items": [
+        {
+          "id": "byt-3",
+          "title": "Prodentall",
+          "meta": "",
+          "image": "1.png",
+          "tourSrc": "tours/demo/tour.json"
+        }
+      ]
+    }
+  ]
+}
