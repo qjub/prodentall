@@ -75,7 +75,7 @@ export default function App() {
         <Tour src={activeTour} edit={edit} />
         <div className="app-topbar">
           {landing.landingEnabled && (
-            <button type="button" className="app-pill" onClick={backToLanding}>← Späť na byty</button>
+            <button type="button" className="app-pill" onClick={backToLanding}>← Domov</button>
           )}
           {(import.meta.env.DEV || edit) && (
             <button type="button" className="app-pill" onClick={toggleEdit}>
