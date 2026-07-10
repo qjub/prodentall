@@ -1,0 +1,93 @@
+{
+  "name": "Vzorový byt",
+  "startNodeId": "recepcia",
+  "variants": [
+    {
+      "id": "den",
+      "label": "Variant 1",
+      "suffix": ""
+    },
+    {
+      "id": "rezim-1783691765150",
+      "label": "Variant 2",
+      "suffix": "_m"
+    },
+    {
+      "id": "rezim-1783703146122",
+      "label": "Variant 3",
+      "suffix": "_b"
+    }
+  ],
+  "defaultVariant": "den",
+  "floorplan": {
+    "image": "podorys.png",
+    "rooms": [
+      {
+        "nodeId": "recepcia",
+        "x": 0.809,
+        "y": 0.5881,
+        "label": "Recepcia"
+      },
+      {
+        "nodeId": "cakaren",
+        "x": 0.1875,
+        "y": 0.6119,
+        "label": "Čakáreň"
+      },
+      {
+        "nodeId": "pult",
+        "x": 0.5868,
+        "y": 0.1709,
+        "label": "Pult"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "recepcia",
+      "name": "Recepcia",
+      "panorama": "recepcia.png",
+      "links": [
+        {
+          "nodeId": "cakaren",
+          "yaw": 3.1613,
+          "pitch": -0.516
+        },
+        {
+          "nodeId": "pult",
+          "yaw": 3.9606,
+          "pitch": -0.3546
+        }
+      ]
+    },
+    {
+      "id": "cakaren",
+      "name": "Čakáreň",
+      "panorama": "cakaren.png",
+      "links": [
+        {
+          "nodeId": "pult",
+          "yaw": 5.8905,
+          "pitch": -0.5262
+        },
+        {
+          "nodeId": "recepcia",
+          "yaw": 0.2635,
+          "pitch": -0.5697
+        }
+      ]
+    },
+    {
+      "id": "pult",
+      "name": "Pult",
+      "panorama": "pult.png",
+      "links": [
+        {
+          "nodeId": "cakaren",
+          "yaw": 2.7157,
+          "pitch": -0.45
+        }
+      ]
+    }
+  ]
+}
