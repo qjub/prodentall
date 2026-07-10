@@ -15,7 +15,7 @@ export const siteConfig = {
   mainSiteUrl: 'https://hodzova.sk/',
 
   brand: {
-    name: 'Rezidencia Hodžova',
+    name: 'Prodentall',
     logo: 'landing/logo.svg', // negatív (biele) logo do tmavej hlavičky
   },
 
@@ -38,7 +38,7 @@ export const siteConfig = {
 
   // Obsah stránky — bloky v poradí. Typy: text | carousel | button | cards | variants.
   blocks: [
-    { type: 'text', style: 'heading', align: 'center', text: 'Rezidencia Hodžova' },
+    { type: 'text', style: 'heading', align: 'center', text: 'Prodentall' },
     {
       type: 'text',
       style: 'paragraph',
